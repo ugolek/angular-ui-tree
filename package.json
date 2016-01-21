@@ -1,11 +1,11 @@
 {
-  "name": "angular-ui-tree",
-  "version": "2.13.0",
+  "name": "cti-angular-ui-tree",
+  "version": "0.0.1",
   "description": "An AngularJS UI component that can sort nested lists, provides drag & drop support and doesn't depend on jQuery",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular-ui-tree/angular-ui-tree"
+    "url": "git+https://github.com/angular-ui-tree/angular-ui-tree.git"
   },
   "main": "index.js",
   "devDependencies": {
@@ -44,5 +44,16 @@
     "test": "gulp build && gulp test:e2e",
     "coveralls": "cat ./coverage/lcov/lcov.info | coveralls",
     "codacy": "cat ./coverage/lcov/lcov.info | codacy-coverage --verbose"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/angular-ui-tree/angular-ui-tree/issues"
+  },
+  "homepage": "https://github.com/angular-ui-tree/angular-ui-tree#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [
+    "cti"
+  ],
+  "author": "MKucheruck"
 }
